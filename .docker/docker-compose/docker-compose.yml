@@ -37,7 +37,7 @@ services:
     ports:
       - "9000:9000"
       - "882:22"
-    working_dir: /var/www/html
+    working_dir: /var/www
     volumes:
       - "/home/andrian/bootcamp/myProject:/var/www"
     environment:
